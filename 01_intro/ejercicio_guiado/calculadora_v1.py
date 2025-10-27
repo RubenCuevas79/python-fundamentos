@@ -21,25 +21,26 @@ Instrucciones:
 # TODO 1: Pide el primer número al usuario
 # Pista: usa input() y guarda el valor en una variable
 # primer_numero = ...
-
+suma_numeroA= input("pon un numero ")
 
 # TODO 2: Pide el segundo número al usuario
 # segundo_numero = ...
-
+suma_numeroB= input("pon el segundo numero  ")
 
 # TODO 3: Convierte los strings a números decimales
 # Pista: usa float() para permitir decimales (ej: 3.5)
 # num1 = float(primer_numero)
 # num2 = ...
-
+numero_uno= float(suma_numeroA)
+numero_dos= float(suma_numeroB)
 
 # TODO 4: Realiza la suma
 # resultado = ...
-
+resultado = numero_uno + numero_dos
 
 # TODO 5: Muestra el resultado
 # Pista: print("El resultado es:", resultado)
-
+print(resultado)
 
 # ¡Ya está! Ejecuta el programa y prueba con diferentes números
 # Ejemplos para probar:
