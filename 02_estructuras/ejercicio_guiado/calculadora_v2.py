@@ -20,15 +20,18 @@ Instrucciones:
 
 # TODO 1: Pide el primer número al usuario y conviértelo a float
 # num1 = ...
+numero_a= float(input("pon un muero "))
+
 
 
 # TODO 2: Pide el segundo número al usuario y conviértelo a float
 # num2 = ...
-
+numero_b= float(input("pon el segundo numero "))
 
 # TODO 3: Pregunta qué operación desea realizar
 # Pista: input("¿Qué operación deseas realizar? (+, -, *, /): ")
 # operacion = ...
+operacion = input(" ¿Qué operación quieres realizar? (+ , - , / ):")
 
 
 # TODO 4: Realiza la operación correspondiente usando if/elif/else
@@ -44,12 +47,22 @@ Instrucciones:
 #     ...
 # else:
 #     print("❌ Operación no válida")
-
+if operacion == "+":
+    resul= numero_a + numero_b
+elif operacion == "-":
+    resul= numero_a - numero_b
+elif operacion == "*":
+    resul= numero_a * numero_b
+elif operacion == "/":
+    resul= numero_a / numero_b
+else:
+   mal= print("❌ operación no válida")
 
 # TODO 5: Muestra el resultado usando f-strings
 # Pista: f"El resultado de {num1} {operacion} {num2} = {resultado:.2f}"
 # El :.2f muestra solo 2 decimales
 # print(f"...")
+print(f"el resultado del numero uno  {numero_a} y la operacion realizada es {operacion} del numero dos {numero_b} el resultado es {resul:.2f}")
 
 
 # ¡Perfecto! Ahora tu calculadora puede hacer las 4 operaciones básicas
