@@ -5,3 +5,5 @@ try:
   print (f"nombre del gato {nombre} la edad del gato es : {edad} ")
 except ValueError:
   print(edad , "❌ tienes que poner un numero entero ")
+
+  

@@ -107,7 +107,7 @@ while True:
     # TODO 9: Muestra el resultado con f-string
     # print(f"✅ {num1} {simbolo} {num2} = {resultado:.2f}")
 
-    print(f"{num1} {simbolo} {num2} = {resultado:.2f}")  
+    print(f" ✅{num1} {simbolo} {num2} = {resultado:.2f}")  
 # ¡Excelente trabajo! Ahora tienes una calculadora interactiva que:
 # - Se repite hasta que el usuario quiera salir
 # - Valida las opciones ingresadas
